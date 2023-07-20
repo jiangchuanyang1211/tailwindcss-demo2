@@ -32,7 +32,7 @@ const Home: NextPage = () => {
               <path id="Rectangle 1830" d="M0 20C0 8.9543 8.9543 0 20 0H188.426L128.78 220H20C8.9543 220 0 211.046 0 200V20Z" fill="#1C1C1C"/>
             </svg>
             <svg className="tw-absolute tw-bottom-0" xmlns="http://www.w3.org/2000/svg" width="142" height="115" viewBox="0 0 142 115" fill="none">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M141.739 67.2027L128.78 115H20C8.9543 115 0 106.046 0 95V17.2623C15.0458 6.40044 33.5254 0 53.5 0C95.6215 0 131.095 28.4618 141.739 67.2027Z" fill="#232323"/>
+              <path fillRule="evenodd" clipRule="evenodd" d="M141.739 67.2027L128.78 115H20C8.9543 115 0 106.046 0 95V17.2623C15.0458 6.40044 33.5254 0 53.5 0C95.6215 0 131.095 28.4618 141.739 67.2027Z" fill="#232323"/>
             </svg>
             <p className="tw-absolute tw-top-10 tw-left-[28px] tw-w-[74px] tw-text-[16px] tw-text-[#EDEDED] tw-font-bold">Daily Quests</p>
           </div>

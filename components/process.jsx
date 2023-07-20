@@ -51,7 +51,7 @@ CircleProgress.propTypes = {
   text:PropTypes.string,
   process:PropTypes.string,
   count:PropTypes.number,
-  innerIsBlack:PropTypes.boolean
+  innerIsBlack:PropTypes.bool
 
 };
 
