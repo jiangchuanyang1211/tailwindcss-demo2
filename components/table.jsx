@@ -4,15 +4,18 @@ const CourseTable = ()=>{
   const [chooseId,setId] = useState(0);
   const types = [{
     key:0,
-    name:'</ Course Completion >',
+    name:'Course Completion',
+    clickName:'</ Course Completion >'
   },
   {
     key:1,
-    name:'Copy Quest Winning Streak'
+    name:'Copy Quest Winning Streak',
+    clickName:'</ Copy Quest Winning Streak >'
   },
   {
     key:2,
-    name:'Track Completion'
+    name:'Track Completion',
+    clickName:'</ Track Completion >'
   }
 ];
   const tableData = [
@@ -68,7 +71,7 @@ const CourseTable = ()=>{
                     key={item.name}
                     onClick={()=>{changeType(item.key)}}
                     
-                    >{item.name}</li>
+                    >{item.key==chooseId?item.clickName:item.name}</li>
                   )
                 })
               }
