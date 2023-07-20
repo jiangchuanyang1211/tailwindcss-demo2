@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: #FFF;
+  --container-bg:#030303
+}
+
+body {
+  background: var(--foreground-rgb);
+  font-family: 'book-normal';
+}
+.container{
+  background: var(--container-bg);
+  max-width:1600px;
+  margin:0 auto;
+}
+
+@font-face {
+  font-family: 'book-blod';
+  src: url(../fonts/NEXT-Book-Bold.otf);
+}
+@font-face {
+  font-family: 'book-normal';
+  src: url(../fonts/NEXT-Book-Regular.otf); 
+}
+
+@font-face {
+  font-family: 'book-thin';
+  src: url(../fonts/NEXT-Book-Thin.otf); 
+}
+@font-face {
+  font-family: 'book-thin-italic';
+  src: url(../fonts/NEXT-Book-Italic.otf); 
+}

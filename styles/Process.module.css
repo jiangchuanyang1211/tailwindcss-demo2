@@ -1,0 +1,38 @@
+.outer {
+  position: relative;
+  width: 135px;
+  height: 135px;
+  margin: auto;
+  background: #5C5C5C;
+  border-radius: 50%;
+}
+.left {
+  width: 135px;
+  height: 135px;
+  position: absolute;
+  margin: auto;
+  background: #FFF;
+  border-radius: 50%;
+  clip: rect(auto, 100px, auto, auto);
+}
+.right {
+  width: 135px;
+  height: 135px;
+  position: absolute;
+  margin: auto;
+  background: #FFF;
+  border-radius: 50%;
+  clip: rect(auto, auto, auto, 100px);
+  transition: transform 0.2s;
+  transform:rotate(45deg);
+}
+.inner {
+  width: 132px;
+  height: 132px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+}

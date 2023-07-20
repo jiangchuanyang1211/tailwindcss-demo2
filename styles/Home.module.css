@@ -1,0 +1,29 @@
+.button{
+  width: 145px;
+  height:40px ;
+  border-radius: 12px;
+  line-height: 40px;
+  text-align: center;
+  background: linear-gradient(180deg, #353535 0%, #2E2E2E 100%);
+
+}
+.questbg{
+  width:188px;
+  background-image: url('../public/rectangle.svg');
+}
+.iconbg{
+  width:123px;
+  height:123px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:0.5px solid #5C5C5C;
+  border-radius: 50%;
+  background-image: url('../public/icon.svg');
+  opacity: .5;
+}
+.iconbg button{
+  background-color: rgba(10, 10, 10, 0.40);
+  border-radius: 12px;
+  border:1px solid #6F6F6F;
+}
