@@ -101,7 +101,7 @@ const CourseTable = ()=>{
                   </div>
                   <span className='tw-text-[14px] tw-text-[#fff]' style={{fontFamily:'book-thin'}}>{item.process}</span>
                 </div>
-                <div className="tw-h-10 tw-mr-[6px] tw-w-[133px] ">
+                <div className="tw-h-10 tw-mr-[6px] tw-w-[133px] tw-text-right">
                   {
                     chooseId==item.class ? 
                     <button className=" tw-h-10 tw-px-[22px] tw-py-3 tw-rounded-[12px] tw-bg-[#fff] tw-text-[14px]  tw-text-[#030303]" style={{fontFamily:'book-thin'}}>Claim</button>:<button className=" tw-h-10 tw-px-[22px] tw-py-3 tw-rounded-[12px] tw-bg-[#fff] tw-text-[14px]  tw-text-[#EDEDED]" style={{fontFamily:'book-thin',background:'linear-gradient(180deg, #353535 0%, #2E2E2E 100%)'}}>Start Learning</button>
